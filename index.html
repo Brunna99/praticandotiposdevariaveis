@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Praticando tipos de variáveis</title>
+</head>
+
+<body>
+  <h1>Praticando tipos de variáveis</h1>
+  <script>
+    let nome = "Brunna";
+    console.log(nome);
+
+    nome = "Elemar";
+    console.log(nome);
+
+    var cidade = "Pimenta Bueno";
+    console.log(cidade);
+
+    if (true) {
+      let cidade = nome;
+      console.log(cidade);
+    }
+
+    console.log(cidade);
+
+    var idade = 30;
+    if (true) {
+      let idade = 25;
+      console.log(idade);
+    }
+
+    console.log(idade);
+
+    let primeiroNome = "Brunna";
+    let segundoNome = "Magalhães";
+    let nomeCompleto = primeiroNome + " " + segundoNome;
+    console.log(nomeCompleto);
+
+    primeiroNome = "Elemar";
+    segundoNome = "Leonel";
+    nomeCompleto = primeiroNome + " " + segundoNome;
+    console.log(nomeCompleto);
+
+    let corFavorita = "roxo";
+    console.log("Cor favorita: " + corFavorita);
+
+    let animalFavorito = "cachorro";
+    console.log("Animal favorito: " + animalFavorito);
+
+    let filmeFavorito = "no momento é OFFICER BLACK BELT ";
+    console.log("Filme favorito: " + filmeFavorito);
+
+
+    nome = "Balduino";
+    console.log("Nome alterado: " + nome);
+
+    cidade = "São Felipe";
+    console.log("Cidade alterada: " + cidade);
+
+    corFavorita = "verde";
+    console.log("Cor favorita alterada: " + corFavorita);
+
+
+    const anoNascimento = 1999;
+    console.log("Ano de nascimento: " + anoNascimento);
+
+    const mãe = "Cileide";
+    console.log("mãe")
+
+
+    let tiposFilmes = ["Ação", "Drama", "Comédia", "Romance"];
+    console.log("Tipos de filmes que gosto: " + tiposFilmes.join(", "));
+
+    let tipoAnimal = "Cachorro";
+    console.log("Tipo de animal de estimação: " + tipoAnimal);
+
+    let nomeAnimal = "Max";
+    let idadeAnimal = 5;
+    console.log("Meu " + tipoAnimal + " se chama " + nomeAnimal + " e tem " + idadeAnimal + " anos.");
+
+
+    idadeAnimal = 6;
+    console.log(nomeAnimal + " agora tem " + idadeAnimal + " anos.");
+
+
+    tipoAnimal = "Gato";
+    console.log("Novo tipo de animal: " + tipoAnimal);
+    console.log(nomeAnimal + " agora é um " + tipoAnimal + ".");
+
+    let coresFavoritas = "azul, verde, vermelho";
+    console.log("Minhas cores favoritas: " + coresFavoritas);
+
+    coresFavoritas += ", roxo";
+    console.log("Cores favoritas atualizadas: " + coresFavoritas);
+
+
+    let hobbies = "ler, viajar, designer gráfico";
+    console.log("Hobbies: " + hobbies);
+
+    hobbies = "assistir filmes, cozinhar";
+    console.log("Hobbies alterados: " + hobbies);
+
+    let perguntaPreferencia = "Você gosta de esportes?";
+    let resposta = "ultimamente acompanho ginástica olímpica";
+    console.log(perguntaPreferencia);
+    console.log(resposta);
+
+    resposta = "Não, não gosto de esportes.";
+    console.log(resposta);
+
+    console.log("Resumo das preferências:");
+    console.log("Cidade: " + cidade);
+    console.log("Cor favorita: " + corFavorita);
+    console.log("Filme favorito: " + filmeFavorito);
+    console.log("Animal favorito: " + tipoAnimal);
+
+
+    cidade = "Lucas do Rio Verde";
+    console.log("Cidade alterada novamente: " + cidade);
+
+
+
+    filmeFavorito = "As Marvels";
+    console.log("Filme favorito alterado: " + filmeFavorito);
+
+
+    let informacoesAdicionais = "Gosto de me desafiar";
+    console.log(informacoesAdicionais);
+
+    console.log("Meu " + tipoAnimal + " se chama " + nomeAnimal + " e tem " + idadeAnimal + " anos.");
+
+
+    animalFavorito = "baleia";
+    console.log("Animal favorito alterado para: " + animalFavorito);
+
+    let gostaGatos = (animalFavorito === "gato");
+    console.log("Gosto de gatos? " + gostaGatos);
+
+
+    console.log("Resumo geral das informações:");
+    console.log("Nome: " + nome);
+    console.log("Cidade: " + cidade);
+    console.log("Cor favorita: " + corFavorita);
+    console.log("Animal favorito: " + tipoAnimal);
+    console.log("Filme favorito: " + filmeFavorito);
+    console.log("Hobbies: " + hobbies);
+
+    corFavorita = "preto";
+    console.log("Cor favorita alterada para: " + corFavorita);
+
+
+    animalFavorito = "pássaro";
+    console.log("Animal favorito alterado para: " + animalFavorito);
+
+
+    corFavorita = "laranja";
+    console.log("Cor favorita agora é: " + corFavorita);
+
+
+    filmeFavorito = "Os Vingadores";
+    console.log("Filme favorito agora é: " + filmeFavorito);
+
+
+    cidade = "Fortaleza";
+    console.log("Cidade agora é: " + cidade);
+
+
+    let gostaAcao = (tiposFilmes.includes("Ação"));
+    console.log("Gosto de filme de ação? " + gostaAcao);
+
+
+    hobbies += ", aprender programação";
+    console.log("Hobbies atualizados: " + hobbies);
+
+
+    resposta = "Sim, pratico esportes.";
+    console.log(resposta);
+
+
+    console.log("Resumo das minhas informações:");
+    console.log("Nome: " + nome);
+    console.log("Cidade: " + cidade);
+    console.log("Cor favorita: " + corFavorita);
+    console.log("Animal favorito: " + animalFavorito);
+    console.log("Filme favorito: " + filmeFavorito);
+    console.log("Hobbies: " + hobbies);
+
+
+    console.log("Minhas cores favoritas incluem: " + coresFavoritas);
+
+
+    console.log("Meu " + tipoAnimal + " se chama " + nomeAnimal + " e tem " + idadeAnimal + " anos.");
+
+
+    nomeAnimal = "Luna";
+    console.log("Agora meu " + tipoAnimal + " se chama " + nomeAnimal + ".");
+
+
+    idadeAnimal = 7;
+    console.log(nomeAnimal + " agora tem " + idadeAnimal + " anos.");
+
+
+    console.log("Novo resumo das informações:");
+    console.log("Nome: " + nome);
+    console.log("Cidade: " + cidade);
+    console.log("Cor favorita: " + corFavorita);
+    console.log("Animal favorito: " + tipoAnimal);
+    console.log("Nome do animal: " + nomeAnimal);
+    console.log("Idade do animal: " + idadeAnimal);
+    console.log("Filme favorito: " + filmeFavorito);
+    console.log("Hobbies: " + hobbies);
+
+
+    let gostaAventuras = "Sim, gosto de aventuras!";
+    console.log("Gosta de aventuras? " + gostaAventuras);
+
+
+    cidade = "Cuiaba";
+    console.log("Cidade mudou para: " + cidade);
+
+
+    corFavorita = "vermelho";
+    console.log("Cor favorita agora é: " + corFavorita);
+
+
+    filmeFavorito = "Avatar";
+
+    let atividadesProfissionais = "Animação, Arte Digital, Impresso, Roteiro, Copy";
+    console.log("Atividades profissionais: " + atividadesProfissionais);
+
+    let projetosRecentes = "Criação de um vídeo animado, desenvolvimento de arte digital para campanha publicitária";
+    console.log("Projetos recentes: " + projetosRecentes);
+
+    let ferramentasUsadas = "Adobe After Effects, Adobe Illustrator, Photoshop, Canva";
+    console.log("Ferramentas usadas: " + ferramentasUsadas);
+
+    let metasProfissionais = "Aprimorar habilidades em animação e design gráfico, explorar novas técnicas de copywriting";
+    console.log("Metas profissionais: " + metasProfissionais);
+
+    let feedbackRecebido = "Clientes elogiaram a criatividade e a qualidade do trabalho";
+    console.log("Feedback recebido: " + feedbackRecebido);
+
+    let aprendizados = "Importância da colaboração em equipe e o valor do feedback construtivo";
+    console.log("Aprendizados: " + aprendizados);
+
+    console.log("Resumo final:");
+    console.log("Nome: " + nome);
+    console.log("Cidade: " + cidade);
+    console.log("Cor favorita: " + corFavorita);
+    console.log("Animal favorito: " + animalFavorito);
+    console.log("Filme favorito: " + filmeFavorito);
+    console.log("Hobbies: " + hobbies);
+    console.log("Atividades profissionais: " + atividadesProfissionais);
+    console.log("Projetos recentes: " + projetosRecentes);
+    console.log("Ferramentas usadas: " + ferramentasUsadas);
+    console.log("Metas profissionais: " + metasProfissionais);
+    console.log("Feedback recebido: " + feedbackRecebido);
+    console.log("Aprendizados: " + aprendizados);
+
+  </script>
+</body>
+
+</html>
